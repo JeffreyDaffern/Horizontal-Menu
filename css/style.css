@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+ul.menu li
+{
+	display: inline-block;
+}
+ul.menu{
+	text-align: right;
+	background-color: purple;
+}
+
+ul.menu li a.active
+{
+	color: Red;
+}
+
+ul.menu li a:hover
+{
+	color: white;
+}
+
+ul.menu li a
+{
+	text-decoration: none;
+	color: gold;
+	font: 30px "Varela Round";
+	display: inline-block;
+	padding: 10px 40px;
+}
+
+h1
+{
+	font: "Varela Round";
+}
